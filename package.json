@@ -1,0 +1,25 @@
+{
+  "name": "udacitytravelapp",
+  "version": "1.0.0",
+  "description": "udacity_capstone_travel_app",
+  "main": "'./src/client/index.js'",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanosman2020/udacitytravelapp.git"
+  },
+  "keywords": [
+    "udacity",
+    "capstone",
+    "travel",
+    "app"
+  ],
+  "author": "Hasan Osman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasanosman2020/udacitytravelapp/issues"
+  },
+  "homepage": "https://github.com/hasanosman2020/udacitytravelapp#readme"
+}
