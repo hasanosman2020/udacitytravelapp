@@ -32,9 +32,9 @@ input {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   border: none;
-  &:focus {
-    outline: none;
-  }
+}
+input:focus {
+  outline: none;
 }
 button {
   width: 400px;
@@ -46,9 +46,9 @@ button {
   border: none;
   box-shadow: 2px 4px 5px #444;
   cursor: pointer;
-  &:focus {
-    outline: none;
-  }
+}
+button:focus {
+  outline: none;
 }
 h1 {
   font-size: 36px;
@@ -58,25 +58,22 @@ textarea {
   color: #f0d43a;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
-  &:focus {
-    outline: none;
-  }
 }
-select {
-  &:focus {
-    outline: none;
-  }
-
-  &::placeholder {
-    color: #f0d43a;
-    font-family: "Oswald", sans-serif;
-  }
-  &:-ms-input-placeholder {
-    color: #f0d43a;
-    font-family: "Oswald", sans-serif;
-  }
-  &::-ms-input-placeholder {
-    color: #f0d43a;
-    font-family: "Oswald", sans-serif;
-  }
+textarea:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+select::placeholder {
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+select:-ms-input-placeholder {
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+select::-ms-input-placeholder {
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
 }

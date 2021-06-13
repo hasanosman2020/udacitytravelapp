@@ -21,5 +21,27 @@
   "bugs": {
     "url": "https://github.com/hasanosman2020/udacitytravelapp/issues"
   },
-  "homepage": "https://github.com/hasanosman2020/udacitytravelapp#readme"
+  "homepage": "https://github.com/hasanosman2020/udacitytravelapp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cors": "^2.8.5",
+    "css-loader": "^5.2.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "node-fetch": "^2.6.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  }
 }
